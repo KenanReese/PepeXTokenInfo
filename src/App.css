@@ -1,38 +1,36 @@
+﻿/* src/App.css */
+
+/* Styling for the container */
 .App {
-  text-align: center;
+    background-color: #00bf63;
+    border: 2px solid #e08916;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+    box-shadow: 12px 12px 18px rgba(0, 0, 0, 1);
+    outline: 2px solid #ffdf2b;
+    font-family: 'Arial', sans-serif; /* Replace with your desired font family */
+    font-size: 16px;
+    max-width: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling for headings */
+h1 {
+    font-family: 'Helvetica', sans-serif; /* Change font family for headings */
+    font-size: 24px; /* Change font size for headings */
+    max-width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styling for paragraphs */
+p {
+    font-family: 'Georgia', serif; /* Change font family for paragraphs */
+    font-size: 20px; /* Change font size for paragraphs */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark-grey-highlight {
+    background-color: #888; /* Change the color to your desired shade of grey */
+    padding: 10px; /* Adjust padding as needed */
+    width:55%; /* Adjust the width as needed */
+    border-radius: 8px; /* Add any other styles you want for the highlight */
+    box-shadow: 12px 12px 18px rgba(0, 0, 0, 1);
 }
